@@ -3,6 +3,8 @@ package pl.pjatk.RentalService.model;
 public class Movie {
     private Long ID;
     private String name;
+    private MovieCathegory movieCathegory;
+    private boolean isAvailable;
 
     public Movie() {
     }
@@ -46,6 +48,5 @@ public class Movie {
         isAvailable = available;
     }
 
-    private MovieCathegory movieCathegory;
-    private boolean isAvailable;
+
 }
